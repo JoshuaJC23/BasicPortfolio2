@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+.wrapper {
+    /* width: 960px; */
+    margin: auto;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 40px;
+    position: relative;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    width: 250px;
+    text-align: center;
+    /* margin-left: 150px; */
+    position: absolute;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 0;
+    left: 288px;
+}
+
+.links {
+    /* float: right; */
+    position: absolute;
+    right: 300px;
+    /* background-color:red; */
+    font-size: larger;
+}
+
+.about {
+    float: left;
+}
+.about:hover {
+    color: yellow;
+}
+
+.portfolio {
+    float: left;
+    margin-left: 5px;
+}
+.portfolio:hover {
+    color: yellow;
+}
+
+.contact {
+    float: left;
+    margin-left: 5px;
+}
+.contact:hover {
+    color: yellow;
+}
+
+.content {
+    clear: both;
+    background-color: saddlebrown;
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.intro {
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 30px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pp {
+    position: absolute;
+    background-color: white;
+    border-top: 2px solid black;   
+    /* position: relative; */
+    top: 76px;
+}
+
+img {
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 28px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-color: red;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 28px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-color: black;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+p {
+    line-height: 2;
+    left: 10px;
+    margin-top: 30px;
+     /* position: absolute;  */
+}
+
+.form {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 81.5px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+}
+
+#fullname {
+    margin-top: px;
+    width: 90%;
+    margin-left: 40px;
+
+}
+
+#email {
+    width: 90%;
+    margin-left: 40px;
+}
+
+#message {
+    width: 90%;
+    height: 200px;
+    margin-left: 40px;
+}
+
+#submit {
+    margin-left: 40px;
+    background-color: teal;
+    color: white;
+    padding: 7px;
+    /* padding-left: 10px; */
+    width: 90px;
+}
+
+.apps {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 81px;
+    height: 500px;
+    border-top: 2px solid black; 
+
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 20px;
+    
+
+    /* height: 40px;
+    width: 150px; */
+    /* top: 100px; */
+}
+
+/* #hm {
+    position: absolute;
+
+} */
+
+.box2 {
+    position: absolute;
+    left: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 30px;
+
+
+}
+
+.box3 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 30px;
+
+}
+
+.box4 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    top: 270px;
+    left: 150px;
+    text-align: center;
+
+}
+
+.box5 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    top: 270px;
+    left: 480px;
+    text-align: center;
+}
